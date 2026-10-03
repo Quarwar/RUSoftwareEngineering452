@@ -6,3 +6,7 @@
 # Jasmine
 /__MACOSX
 /_Nodejs_jasmine_code
+
+# Text and CSV files
+.txt
+.csv

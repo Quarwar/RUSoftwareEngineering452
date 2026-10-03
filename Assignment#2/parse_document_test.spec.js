@@ -4,8 +4,7 @@
     Jasmine Test Cases
     Author: Joseph Signorile
     Cite: ChatGPT (contributed to the test cases, helped generate random test data)
-
-    Tests the functions exported by the Assignment #2 program.
+    Description: Tests the functions exported by the Assignment #2 program.
 */
 
 const fs = require('node:fs');
@@ -16,7 +15,7 @@ const {
     createOutputFile,
     isTimeValid,
     parseFile
-} = require('../Pasted code(1).js');
+} = require('../../parse_document.js');
 
 const testDirectory = path.join(__dirname, 'test_files');
 
